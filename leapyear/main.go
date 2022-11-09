@@ -33,11 +33,12 @@ func IsLeapYear(year int) bool {
 	// Write some code here to pass the test suite.
 	if year%4 == 0 && year%100 != 0 || year%400 == 0 {
 		return true
+		// if year%4 == 0 {
 		// if b_year100 == 0 {
-		// 	if b_year400 == 0 {
-		// 		return true
+		// 	if b_year400 != 0 {
+		// 		return false
 		// 	}
-		// 	return false
+		// 	return true
 		// }
 		// return true
 	}
