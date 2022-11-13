@@ -60,13 +60,11 @@ func RunLengthDecode(input string) string {
 	var count string
 
 	for _, l := range input {
-		if unicode.IsLetter(l) && count == "" {
+		if !unicode.IsNumber(l) && count == "" {
 			output += string(l)
-		} else if unicode.IsLetter(l) && count != "" {
-			fmt.Println(count) // WHHHHHHHHHHHHAAAAAAAAAAAAAT!!!
+		} else if !unicode.IsNumber(l) && count != "" {
 			s_int, err := strconv.ParseInt(count, 10, 64)
 			if err != nil {
-				fmt.Println(err)
 				return "Error"
 			}
 			output += strings.Repeat(string(l), int(s_int))
