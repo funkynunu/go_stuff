@@ -19,11 +19,11 @@ func main() {
 
 	aSlice = []int{1, 2, 0, 5}
 	if is_larget_double(aSlice) {
-		fmt.Println("%+q", aSlice)
+		fmt.Println("%+q", aSlice) // TODO: what is this??
 	}
 
 	aSlice = []int{2, 6, 3, 1}
-	if is_larget_double(aSlice) {
+	if is_larget_double(aSlice) { // TODO: what what
 		fmt.Println("%+q", aSlice)
 	}
 
