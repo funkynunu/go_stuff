@@ -7,10 +7,6 @@ import (
 	"sort"
 )
 
-// import (
-// 	"github.com/funkynunu/go_rest_api/pkg/leapyear"
-// )
-
 func main() {
 	aSlice := []int{1, 2, 3, 4}
 	if is_larget_double(aSlice) {

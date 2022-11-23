@@ -7,10 +7,6 @@ import (
 	"strconv"
 )
 
-// import (
-// 	"github.com/funkynunu/go_rest_api/pkg/leapyear"
-// )
-
 // {"0", 0, true},
 // {"1", 1, true},
 // {"2", 2, true},

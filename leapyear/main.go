@@ -2,10 +2,6 @@ package main
 
 import "fmt"
 
-// import (
-// 	"github.com/funkynunu/go_rest_api/pkg/leapyear"
-// )
-
 func main() {
 	if IsLeapYear(1996) {
 		fmt.Println("1996 is a leap year")

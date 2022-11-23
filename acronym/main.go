@@ -5,10 +5,6 @@ import (
 	"strings"
 )
 
-// import (
-// 	"github.com/funkynunu/go_rest_api/pkg/leapyear"
-// )
-
 func main() {
 	fmt.Println(Abbreviate("Testing One Two"))
 	fmt.Println(Abbreviate(""))

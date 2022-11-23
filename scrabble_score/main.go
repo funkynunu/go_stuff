@@ -5,10 +5,6 @@ import (
 	"strings"
 )
 
-// import (
-// 	"github.com/funkynunu/go_rest_api/pkg/leapyear"
-// )
-
 func main() {
 	// {"a", 1},                           // lowercase letter
 	// {"A", 1},                           // uppercase letter
